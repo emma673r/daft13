@@ -18,7 +18,7 @@ get_header();
         <button class="tilbage button" >Tilbage</button>
 
       <article>
-        <h3 class="title"></h3>
+        <h3 class="overskrift"></h3>
         <img class="img" src="" alt="">
          <span class="beskrivelse"></span>
          <span class="pris"></span>
@@ -43,11 +43,11 @@ get_header();
 
         function vis(){
             
-          document.querySelector(".title").textContent = item.title;
-          document.querySelector(".beskrivelse").innerHTML = item.beskrivelse.rendered;
-          document.querySelector(".img").src = item.image;
-          document.querySelector(".img").alt = item.title;
-          document.querySelector(".pris").innerHTML = item.pris;
+          document.querySelector(".overskrift").textContent = item.overskrift;
+          document.querySelector(".beskrivelse").innerHTML = item.beskrivelse;
+			document.querySelector(".img").src = item.image.guid;
+			document.querySelector(".img").alt = item.overskrift;
+          document.querySelector(".pris").innerHTML = `Pris. ${item.pris}dkk`;
         }
 
         hentData();

@@ -15,7 +15,7 @@ get_header();
 			
       <template>
         <article id="items">
-          <h3 class="title"></h3>
+          <h3 class="overskrift"></h3>
           <img src="" alt=""/>
           <p class="beskrivelse"></p>
           <p class="pris"></p>
@@ -28,7 +28,7 @@ get_header();
 			<nav id="filtrering">
 				
 					<button data-item="alle">Alle</button>
-						<div id="filt-kat" class="button_drop"></div>
+						
 		
 
 			
@@ -48,7 +48,7 @@ get_header();
 		let filterItem = "alle";
 
 		let items = [];
-		let kategori = [];
+		let categories = [];
 
 
 
@@ -66,17 +66,17 @@ async function hentData() {
 	// json
 
   items = await respons.json();
-  kategori = await katData.json();
+  categories = await katData.json();
 
 
-  visitems();
+  visItems();
   opretKnapper();
 }
 
 function opretKnapper() {
 	// knapper til verdensmål
-	kategori.forEach (kategori => {
-	document.querySelector("#filt-kat").innerHTML += `<button class="filter" data-item="${kategori.id}">${kategori.slug}</button>`
+	categories.forEach (categories => {
+	document.querySelector("#filtrering").innerHTML += `<button class="filter" data-item="${categories.id}">${categories.name}</button>`
 	})
 
 	addEventListenersToButtons ();
@@ -89,7 +89,6 @@ function addEventListenersToButtons () {
 }
 
 function filtrering() {
-	console.log("filtrering");
 	console.log("this is this.dataset.item = " + this.dataset.item);
 
 	if (this.dataset.item != "alle") {
@@ -114,13 +113,14 @@ function visItems() {
 
 	items.forEach((item) => {
 		
-		if (filterItem == "alle" || item.kategori.includes(filterItem)) {
+		if (filterItem == "alle" || item.categories.includes(filterItem)) {
 	
+console.log("item.categories.includes(filterItem) is " + item.categories.includes(filterItem))
 
 			let klon = temp.cloneNode(true).content;
 
-			klon.querySelector(".title").innerHTML = item.title;
-			klon.querySelector(".beskrivelse").innerHTML = item.beskrivelse.rendered;
+			klon.querySelector(".overskrift").innerHTML = item.overskrift;
+			klon.querySelector(".beskrivelse").innerHTML = item.beskrivelse;
 
 // 
 // 
@@ -128,9 +128,9 @@ function visItems() {
 // 
 // 
 
-			klon.querySelector(".pris").innerHTML = item.pris;
+			klon.querySelector(".pris").innerHTML = `Pris. ${item.pris}dkk`;
 			klon.querySelector("img").src = item.image.guid;
-			klon.querySelector("img").alt = item.title;
+			klon.querySelector("img").alt = item.overskrift;
 
 			klon
 				.querySelector("article")
