@@ -80,7 +80,7 @@ async function hentData() {
 }
 
 function opretKnapper() {
-	// knapper til verdensmål
+	// knapper til kategorierne
 	categories.forEach (categories => {
 	document.querySelector("#filtrering").innerHTML += `<button class="filter" data-item="${categories.id}">${categories.name}</button>`
 	})
@@ -127,13 +127,6 @@ console.log("item.categories.includes(filterItem) is " + item.categories.include
 
 			klon.querySelector(".overskrift").innerHTML = item.overskrift;
 			klon.querySelector(".beskrivelse").innerHTML = item.beskrivelse;
-
-// 
-// 
-			// FÅ NOGET TEXT OVERFLOW ELLISPSIS IN CSS
-// 
-// 
-
 			klon.querySelector(".pris").innerHTML = `Pris. ${item.pris}dkk`;
 			klon.querySelector("img").src = item.image.guid;
 			klon.querySelector("img").alt = item.overskrift;
