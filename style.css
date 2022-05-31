@@ -32,7 +32,7 @@ p, a, span {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr));
     justify-items: center;
-    align-items: center;
+    align-items: start;
     margin-left: 40px;
     margin-right: 40px;
   }
@@ -47,12 +47,17 @@ p, a, span {
     place-content: center;
     margin: 40px;
     gap: 60px;
-    margin-top: 60px;
+    margin-top: 100px;
   }
 
-  #items .beskrivelse {
-    overflow: hidden;
-  }
+.tilbage button {
+  display: flex;
+    place-content: left;
+    margin: 40px;
+    gap: 60px;
+    margin-top: 60px;
+    background-color: #E30613;
+}
 
   @media only screen and (max-width: 768px) {
     #filtrering {
