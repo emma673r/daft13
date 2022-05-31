@@ -1,0 +1,40 @@
+#masthead > div > div > p.site-title > a {
+  color: #e30613;
+  font-size: 2.1rem;
+}
+
+#masthead > div > div > p.site-description {
+  display: none;
+}
+
+#masthead > div > div > div {
+  display: none;
+}
+
+#masthead > div > div {
+  margin: 0;
+  grid-column: 2/4;
+  text-align: center;
+}
+
+#masthead > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#masthead {
+  margin: 0;
+  padding: 0;
+}
+
+#site-navigation {
+  font-size: 30px;
+}
+
+#menu-main-menu {
+  margin: 0;
+}
+
+#post-12 {
+  margin-top: 0;
+}
