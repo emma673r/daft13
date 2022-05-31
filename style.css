@@ -7,7 +7,7 @@ Author:      Emma Pasquer
 */
 
 @font-face {
-    font-family: Specialelite;
+    font-family: Specialelite Regular;
     src: url(fonts/specialelite-regular-webfont.woff2);
 }
 
@@ -17,12 +17,12 @@ Author:      Emma Pasquer
 }
 
 * h1, h2, h3, h4 h5, h6{
-font-family: Specialelite,;
+font-family: 'Specialelite Regular', sans-serif;
 color: #FFED00;
 }
 
 p, a, span {
-   font-family: Noto Sans Mono, sans-serif; 
+   font-family: 'Noto Sans Mono', sans-serif; 
 }
 
 #liste {
