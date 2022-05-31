@@ -47,8 +47,8 @@ get_header();
 
 <script>
 
-		const url = "http://emsportfolio.dk/kea/10_eksamensprojekt/eksamen_projekt/wp-json/wp/v2/item?per_page=100";
-		const katurl = "http://emsportfolio.dk/kea/10_eksamensprojekt/eksamen_projekt/wp-json/wp/v2/categories";
+		const url = "https://emsportfolio.dk/kea/10_eksamensprojekt/eksamen_projekt/wp-json/wp/v2/item?per_page=100";
+		const katurl = "https://emsportfolio.dk/kea/10_eksamensprojekt/eksamen_projekt/wp-json/wp/v2/categories";
 
 		let filter = "alle";
 		let filterItem = "alle";
