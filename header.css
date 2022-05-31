@@ -13,7 +13,7 @@
 
 #masthead > div > div {
   margin: 0;
-  grid-column: 2/4;
+  grid-column: 1/5;
   text-align: center;
   margin-top: 2rem;
   margin-bottom: -2rem;
