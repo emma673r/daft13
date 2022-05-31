@@ -47,6 +47,20 @@ footer {
   color: black;
 }
 
+#post-12
+  > div
+  > div
+  > section.elementor-section.elementor-top-section.elementor-element.elementor-element-6ddc6fa.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
+  > div
+  > div.elementor-column.elementor-col-33.elementor-top-column.elementor-element.elementor-element-6f101e2
+  > div
+  > div.elementor-element.elementor-element-942d1c8.elementor-hidden-desktop.elementor-widget.elementor-widget-text-editor
+  > div
+  > p:nth-child(2)
+  p {
+  color: black;
+}
+
 #post-12 > div > div {
   margin: 0;
 }
