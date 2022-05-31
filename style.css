@@ -66,4 +66,16 @@ p, a, span {
       align-content: center;
   
   }
+  #liste {
+    /*margin: 100px; */
+    padding: 5px;
+    gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
 }
