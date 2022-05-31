@@ -5,3 +5,47 @@ Version:      2.2
 Description:  twentynineteen Child Theme
 Author:      Emma Pasquer
 */
+
+@font-face {
+    font-family: Specialelite;
+    src: url(fonts/specialelite-regular-webfont.woff2);
+}
+
+@font-face {
+    font-family: Noto Sans Mono;
+    src: url(fonts/notosansmono-variablefont_wdthwght-webfont.woff2);
+}
+
+* h1, h2, h3, h4 h5, h6{
+font-family: Specialelite, sans-serif;
+color: #FFED00;
+}
+
+p, a {
+   font-family: Noto Sans Mono, sans-serif; 
+}
+
+#liste {
+    /*margin: 100px; */
+    padding: 5px;
+    gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  #liste img {
+    max-height: 75vh;
+    cursor: pointer;
+  }
+
+  .navFiltrering {
+    display: flex;
+    place-content: center;
+    margin: 40px;
+    gap: 60px;
+    margin-top: 60px;
+  }
