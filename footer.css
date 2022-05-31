@@ -5,3 +5,33 @@
 #post-12 > footer > span {
   display: none;
 }
+
+footer {
+  background-color: yellow;
+  display: none;
+}
+
+#post-12
+  > div
+  > div
+  > section.elementor-section.elementor-top-section.elementor-element.elementor-element-6ddc6fa.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
+  > div
+  > div.elementor-column.elementor-col-33.elementor-top-column.elementor-element.elementor-element-112cd0c
+  > div
+  > div.elementor-element.elementor-element-98cdaf2.elementor-widget.elementor-widget-text-editor
+  > div
+  p {
+  color: black;
+}
+
+#post-12
+  > div
+  > div
+  > section.elementor-section.elementor-top-section.elementor-element.elementor-element-6ddc6fa.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default {
+  width: 1440px;
+  left: -204px;
+}
+
+#post-12 > div > div {
+  margin: 0;
+}
