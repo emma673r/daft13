@@ -41,3 +41,11 @@ p, a {
     max-height: 75vh;
     cursor: pointer;
   }
+
+  .navFiltrering {
+    display: flex;
+    place-content: center;
+    margin: 40px;
+    gap: 60px;
+    margin-top: 60px;
+  }
