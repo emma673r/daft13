@@ -42,7 +42,7 @@ p, a, span {
     cursor: pointer;
   }
 
-  .navFiltrering {
+  .filtrering {
     display: flex;
     place-content: center;
     margin: 40px;
