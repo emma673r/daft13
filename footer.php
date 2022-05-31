@@ -12,9 +12,8 @@
  */
 
 ?>
-<head> <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/footer.css"></head>
+<head><link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/footer.css"></head>
 	</div><!-- #content -->
-	
 
 	<footer id="colophon" class="site-footer">
 		<?php get_template_part( 'template-parts/footer/footer', 'widgets' ); ?>
