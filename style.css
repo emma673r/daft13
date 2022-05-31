@@ -24,3 +24,20 @@ color: #FFED00;
 p, a {
    font-family: Noto Sans Mono, sans-serif; 
 }
+
+#liste {
+    /*margin: 100px; */
+    padding: 5px;
+    gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  #liste img {
+    max-height: 75vh;
+    cursor: pointer;
+  }
