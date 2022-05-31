@@ -17,7 +17,7 @@ Author:      Emma Pasquer
 }
 
 * h1, h2, h3, h4 h5, h6{
-font-family: Specialelite, sans-serif;
+font-family: Specialelite,;
 color: #FFED00;
 }
 
@@ -42,7 +42,7 @@ p, a, span {
     cursor: pointer;
   }
 
-  .filtrering {
+  #filtrering {
     display: flex;
     place-content: center;
     margin: 40px;
