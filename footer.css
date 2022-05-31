@@ -24,14 +24,42 @@ footer {
   color: black;
 }
 
-#post-12
+#post-319
   > div
   > div
-  > section.elementor-section.elementor-top-section.elementor-element.elementor-element-6ddc6fa.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default {
-  width: 1440px;
-  left: -204px;
+  > section.elementor-section.elementor-top-section.elementor-element.elementor-element-9b3a6c1.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
+  p {
+  color: black;
+}
+
+#post-20
+  > div
+  > div
+  > section.elementor-section.elementor-top-section.elementor-element.elementor-element-d831552.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
+  p {
+  color: black;
+}
+
+#post-15
+  > div
+  > div
+  > section.elementor-section.elementor-top-section.elementor-element.elementor-element-228aede.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
+  p {
+  color: black;
 }
 
 #post-12 > div > div {
+  margin: 0;
+}
+
+#post-319 > div > div {
+  margin: 0;
+}
+
+#post-20 > div > div {
+  margin: 0;
+}
+
+#post-15 > div > div {
   margin: 0;
 }
