@@ -30,7 +30,7 @@
 }
 
 #site-navigation {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 #menu-main-menu {
@@ -39,4 +39,20 @@
 
 #post-12 {
   margin-top: 0;
+}
+
+@font-face {
+  font-family: Specialelite;
+  src: url(fonts/specialelite-regular-webfont.woff2);
+}
+
+@font-face {
+  font-family: Noto Sans Mono;
+  src: url(fonts/notosansmono-variablefont_wdthwght-webfont.woff2);
+}
+
+p,
+a {
+  font-family: Specialelite, sans-serif;
+  color: #ffed00;
 }
