@@ -32,7 +32,7 @@ get_header();
         // console.log({id});
         let item;
 
-        const url = `http://emsportfolio.dk/kea/10_eksamensprojekt/eksamen_projekt/wp-json/wp/v2/item/${id}`;
+        const url = `https://emsportfolio.dk/kea/10_eksamensprojekt/eksamen_projekt/wp-json/wp/v2/item/${id}`;
 
         async function hentData() {
         const respons = await fetch(url);
