@@ -1,0 +1,58 @@
+#masthead > div > div > p.site-title > a {
+  color: #e30613;
+  font-size: 2.1rem;
+}
+
+#masthead > div > div > p.site-description {
+  display: none;
+}
+
+#masthead > div > div > div {
+  display: none;
+}
+
+#masthead > div > div {
+  margin: 0;
+  grid-column: 2/4;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+}
+
+#masthead > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#masthead {
+  margin: 0;
+  padding: 0;
+}
+
+#site-navigation {
+  font-size: 25px;
+}
+
+#menu-main-menu {
+  margin: 0;
+}
+
+#post-12 {
+  margin-top: 0;
+}
+
+@font-face {
+  font-family: Specialelite;
+  src: url(fonts/specialelite-regular-webfont.woff2);
+}
+
+@font-face {
+  font-family: Noto Sans Mono;
+  src: url(fonts/notosansmono-variablefont_wdthwght-webfont.woff2);
+}
+
+p,
+a {
+  font-family: Specialelite, sans-serif;
+  color: #ffed00;
+}
