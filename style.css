@@ -50,6 +50,15 @@ p, a, span {
     margin-top: 60px;
   }
 
+.tilbage button {
+  display: flex;
+    place-content: left;
+    margin: 40px;
+    gap: 60px;
+    margin-top: 60px;
+    background-color: #E30613;
+}
+
   #items .beskrivelse {
     overflow: hidden;
   }
