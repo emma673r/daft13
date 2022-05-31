@@ -7,7 +7,6 @@
 }
 
 footer {
-  background-color: yellow;
   display: none;
 }
 
@@ -62,4 +61,27 @@ footer {
 
 #post-15 > div > div {
   margin: 0;
+}
+
+@font-face {
+  font-family: Specialelite;
+  src: url(fonts/specialelite-regular-webfont.woff2);
+}
+
+@font-face {
+  font-family: Noto Sans Mono;
+  src: url(fonts/notosansmono-variablefont_wdthwght-webfont.woff2);
+}
+
+#post-12 h3,
+#post-319 h3,
+#post-20 h3,
+#post-15 h3 {
+  font-family: Specialelite, sans-serif;
+}
+#post-12 p,
+#post-319 p,
+#post-20 p,
+#post-15 p {
+  font-family: "Noto Sans Mono", sans-serif;
 }
