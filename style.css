@@ -49,3 +49,21 @@ p, a, span {
     gap: 60px;
     margin-top: 60px;
   }
+
+  #items .beskrivelse {
+    overflow: hidden;
+  }
+
+  @media only screen and (max-width: 768px) {
+    #filtrering {
+      display: flex;
+      place-content: center;
+      margin: 40px;
+      gap: 10px;
+      margin-top: 60px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+  
+  }
+}
