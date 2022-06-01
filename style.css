@@ -29,12 +29,14 @@ h6 {
   color: #ffed00;
 }
 
+
+
 h1,
 h2,
 h3,
 h4 h5,
 h6,
-.elementor-heading-title .elementor-size-default {
+#post-12 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-10fe426.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div.elementor-element.elementor-element-7c787ed.elementor-widget.elementor-widget-heading > div > h2 {
   font-family: "Specialelite Regular", sans-serif;
   color: #ffed00;
 }
