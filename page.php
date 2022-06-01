@@ -11,7 +11,7 @@
 
 get_header();
 ?>
-
+<head><link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css"></head>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
