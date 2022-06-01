@@ -21,9 +21,12 @@ get_header();
 
         <button class="tilbage-button" >Tilbage</button>
 
+    <article>
+    <img class="img" src="" alt="">
+    </article>
+
       <article>
         <h3 class="overskrift"></h3>
-        <img class="img" src="" alt="">
          <span class="beskrivelse"></span>
          <span class="pris"></span>
       </article>
@@ -56,7 +59,7 @@ get_header();
 
         hentData();
 
-        document.querySelector(".tilbage").addEventListener("click", ()=>{ history.back()});
+        document.querySelector(".tilbage-button").addEventListener("click", ()=>{ history.back()});
 
     </script>
 
