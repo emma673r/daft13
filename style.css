@@ -101,7 +101,7 @@ h2:before {
 }
 p,
 a,
-.pris {
+.pris, #post-20 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-a058c7f.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched.elementor-hidden-tablet.elementor-hidden-mobile > div.elementor-container.elementor-column-gap-default.ui-sortable > div.elementor-element.elementor-element-edit-mode.elementor-element-254e406.elementor-element--toggle-edit-tools.elementor-column.elementor-top-column.ui-resizable > div.elementor-widget-wrap.elementor-element-populated.ui-sortable > div.elementor-element.elementor-element-edit-mode.elementor-element-0a0c48e.elementor-element--toggle-edit-tools.elementor-widget.elementor-widget-button.elementor-element-editable.elementor-align-left > div.elementor-widget-container > div > a > span > span.elementor-button-text.elementor-inline-editing {
   font-family: "Noto Sans Mono", sans-serif;
   color: #ffff00;
 }
