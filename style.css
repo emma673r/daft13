@@ -21,12 +21,27 @@ font-family: 'Specialelite Regular', sans-serif;
 color: #FFED00;
 }
 
+h1, h2, h3, h4 h5, h6, .elementor-heading-title .elementor-size-default{
+  font-family: 'Specialelite Regular', sans-serif;
+  color: #FFED00;
+  }
+
+
+.entry-title {
+  text-align: center;
+}
+
+
+  h1:not(.site-title):before,
+h2:before {
+  /* background: #767676; */
+  display: none;
+}
 p, a, span {
    font-family: 'Noto Sans Mono', sans-serif; 
 }
 
 #liste {
-    /*margin: 100px; */
     padding: 5px;
     gap: 25px;
     display: grid;
@@ -68,19 +83,44 @@ p, a, span {
       margin-top: 60px;
       flex-direction: column;
       flex-wrap: wrap;
-      align-content: center;
+      align-content: start;
   
   }
   #liste {
-    /*margin: 100px; */
     padding: 5px;
     gap: 25px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
     justify-items: center;
     align-items: center;
     margin-left: 40px;
     margin-right: 40px;
   }
+
+}
+
+@media only screen and (max-width: 1024px) {
+  #filtrering {
+    display: flex;
+    place-content: center;
+    margin: 40px;
+    margin-top: 30px;
+    gap: 10px;
+    margin-top: 60px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: start;
+
+}
+#liste {
+  padding: 5px;
+  gap: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
 
 }
