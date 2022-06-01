@@ -195,12 +195,3 @@ span.pris {
     margin-right: 40px;
   }
 }
-
-#masthead > div > div {
-  z-index: 2;
-  margin-bottom: -150px;
-}
-
-#masthead {
-  margin-bottom: -50px;
-}
