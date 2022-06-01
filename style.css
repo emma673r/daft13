@@ -101,8 +101,7 @@ h2:before {
 }
 p,
 a,
-span,
-span.pris {
+.pris {
   font-family: "Noto Sans Mono", sans-serif;
   color: #ffff00;
 }
