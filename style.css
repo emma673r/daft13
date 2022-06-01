@@ -31,6 +31,15 @@ h1, h2, h3, h4 h5, h6, .elementor-heading-title .elementor-size-default{
   }
 
 
+#primary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  margin: 20px;
+  justify-items: center;
+  padding-bottom: 100px;
+}
+
+
 .entry-title {
   text-align: center;
 }
@@ -89,8 +98,8 @@ p, a, span, span.pris {
       flex-direction: column;
       flex-wrap: wrap;
       align-content: start;
-  
   }
+
   #liste {
     padding: 5px;
     gap: 25px;
@@ -100,6 +109,14 @@ p, a, span, span.pris {
     align-items: center;
     margin-left: 40px;
     margin-right: 40px;
+  }
+
+  #primary {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(auto-fit, 1fr));
+    margin: 20px;
+    justify-items: center;
+    padding-bottom: 100px;
   }
 
 }

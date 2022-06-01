@@ -22,11 +22,11 @@ get_header();
         <button class="tilbage-button" >Tilbage</button>
 
     <article>
+    <h3 class="overskrift"></h3>
     <img class="img" src="" alt="">
     </article>
 
       <article>
-        <h3 class="overskrift"></h3>
          <span class="beskrivelse"></span>
          <span class="pris"></span>
       </article>
