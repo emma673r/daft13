@@ -7,97 +7,106 @@ Author:      Emma Pasquer
 */
 
 body {
-background-color: #1D1D1B;
+  background-color: #1d1d1b;
 }
 
 @font-face {
-    font-family: Specialelite Regular;
-    src: url(fonts/specialelite-regular-webfont.woff2);
+  font-family: Specialelite Regular;
+  src: url(fonts/specialelite-regular-webfont.woff2);
 }
 
 @font-face {
-    font-family: Noto Sans Mono;
-    src: url(fonts/notosansmono-variablefont_wdthwght-webfont.woff2);
+  font-family: Noto Sans Mono;
+  src: url(fonts/notosansmono-variablefont_wdthwght-webfont.woff2);
 }
 
-* h1, h2, h3, h4 h5, h6{
-font-family: 'Specialelite Regular', sans-serif;
-color: #FFED00;
+* h1,
+h2,
+h3,
+h4 h5,
+h6 {
+  font-family: "Specialelite Regular", sans-serif;
+  color: #ffed00;
 }
 
-h1, h2, h3, h4 h5, h6, .elementor-heading-title .elementor-size-default{
-  font-family: 'Specialelite Regular', sans-serif;
-  color: #FFED00;
-  }
-
+h1,
+h2,
+h3,
+h4 h5,
+h6,
+.elementor-heading-title .elementor-size-default {
+  font-family: "Specialelite Regular", sans-serif;
+  color: #ffed00;
+}
 
 #primary {
   display: grid;
   grid-template-columns: repeat(2, minmax(300px, 1fr));
-  margin: 20px;
+  /* margin: 20px; */
   justify-items: center;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
-
 
 .entry-title {
   text-align: center;
 }
 
-  h1:not(.site-title):before,
+h1:not(.site-title):before,
 h2:before {
   /* background: #767676; */
   display: none;
-
 }
-p, a, span, span.pris {
-   font-family: 'Noto Sans Mono', sans-serif; 
-   color: #ffff00;
+p,
+a,
+span,
+span.pris {
+  font-family: "Noto Sans Mono", sans-serif;
+  color: #ffff00;
 }
 
 #liste {
-    padding: 5px;
-    gap: 25px;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr));
-    justify-items: center;
-    align-items: start;
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-  
-  #liste img {
-    max-height: 75vh;
-    cursor: pointer;
-  }
+  padding: 5px;
+  gap: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  justify-items: center;
+  align-items: start;
+  margin-left: 40px;
+  margin-right: 40px;
+}
 
+#liste img {
+  max-height: 75vh;
+  cursor: pointer;
+}
+
+#filtrering {
+  display: flex;
+  place-content: center;
+  margin: 40px;
+  gap: 60px;
+  margin-top: 100px;
+}
+
+.tilbage-button {
+  display: flex;
+  place-content: left;
+  margin: 40px;
+  gap: 60px;
+  margin-top: 60px;
+  background-color: #e30613;
+}
+
+@media only screen and (max-width: 768px) {
   #filtrering {
     display: flex;
     place-content: center;
     margin: 40px;
-    gap: 60px;
-    margin-top: 100px;
-  }
-
-.tilbage-button {
-  display: flex;
-    place-content: left;
-    margin: 40px;
-    gap: 60px;
+    gap: 10px;
     margin-top: 60px;
-    background-color: #E30613;
-}
-
-  @media only screen and (max-width: 768px) {
-    #filtrering {
-      display: flex;
-      place-content: center;
-      margin: 40px;
-      gap: 10px;
-      margin-top: 60px;
-      flex-direction: column;
-      flex-wrap: wrap;
-      align-content: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: start;
   }
 
   #liste {
@@ -118,7 +127,6 @@ p, a, span, span.pris {
     justify-items: center;
     padding-bottom: 100px;
   }
-
 }
 
 @media only screen and (max-width: 1024px) {
@@ -132,17 +140,15 @@ p, a, span, span.pris {
     flex-direction: column;
     flex-wrap: wrap;
     align-content: start;
-
-}
-#liste {
-  padding: 5px;
-  gap: 25px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  justify-items: center;
-  align-items: center;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
+  }
+  #liste {
+    padding: 5px;
+    gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 }
