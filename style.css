@@ -47,6 +47,22 @@ h6,
   /* padding-bottom: 100px; */
 }
 
+#post-15 > header > h1 {
+  text-align: center;
+}
+
+#post-319 > header > h1 {
+  text-align: center;
+}
+
+.entry .entry-title:before {
+  display: none;
+}
+
+#post-20 > header > h1 {
+  text-align: center;
+}
+
 .entry-title {
   text-align: center;
 }
