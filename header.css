@@ -16,7 +16,7 @@
   grid-column: 1/5;
   text-align: center;
   margin-top: 2rem;
-  margin-bottom: -2rem;
+  z-index: 2;
 }
 
 #masthead > div {
@@ -25,8 +25,11 @@
 }
 
 #masthead {
-  margin: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
   padding: 0;
+  margin-bottom: -50px;
 }
 
 #site-navigation {
