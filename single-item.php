@@ -19,7 +19,7 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
-        <button class="tilbage-button" >Tilbage</button>
+        <button class="tilbage button" >Tilbage</button>
 
     <article>
     <h3 class="overskrift"></h3>
@@ -59,7 +59,7 @@ get_header();
 
         hentData();
 
-        document.querySelector(".tilbage-button").addEventListener("click", ()=>{ history.back()});
+        document.querySelector(".tilbage").addEventListener("click", ()=>{ history.back()});
 
     </script>
 
