@@ -1,3 +1,7 @@
+<style>
+<?php include 'CSS/style.css'; ?>
+</style>
+
 <?php
 /**
  * The template for displaying all single posts
@@ -15,7 +19,7 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
-        <button class="tilbage button" >Tilbage</button>
+        <button class="tilbage-button" >Tilbage</button>
 
       <article>
         <h3 class="overskrift"></h3>

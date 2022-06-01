@@ -6,6 +6,10 @@ Description:  twentynineteen Child Theme
 Author:      Emma Pasquer
 */
 
+body {
+background-color: #1D1D1B;
+}
+
 @font-face {
     font-family: Specialelite Regular;
     src: url(fonts/specialelite-regular-webfont.woff2);
@@ -31,14 +35,15 @@ h1, h2, h3, h4 h5, h6, .elementor-heading-title .elementor-size-default{
   text-align: center;
 }
 
-
   h1:not(.site-title):before,
 h2:before {
   /* background: #767676; */
   display: none;
+
 }
-p, a, span {
+p, a, span, span.pris {
    font-family: 'Noto Sans Mono', sans-serif; 
+   color: #ffff00;
 }
 
 #liste {
@@ -65,7 +70,7 @@ p, a, span {
     margin-top: 100px;
   }
 
-.tilbage button {
+.tilbage-button {
   display: flex;
     place-content: left;
     margin: 40px;
