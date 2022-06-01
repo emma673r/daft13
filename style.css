@@ -79,7 +79,7 @@ p, a, span, span.pris {
     margin-top: 100px;
   }
 
-.tilbage-button {
+.tilbage {
   display: flex;
     place-content: left;
     margin: 40px;
