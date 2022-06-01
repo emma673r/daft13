@@ -151,6 +151,10 @@ a,
     align-content: start;
   }
 
+#main {
+  grid-column: 1;
+}
+
   #liste {
     padding: 5px;
     gap: 25px;
@@ -165,9 +169,8 @@ a,
   #primary {
     display: grid;
     grid-template-columns: repeat(1, minmax(auto-fit, 1fr));
-    margin: 20px;
     justify-items: center;
-    padding-bottom: 100px;
+    
   }
 }
 
