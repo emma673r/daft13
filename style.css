@@ -147,6 +147,10 @@ a,
   font-family: "Noto Sans Mono", sans-serif;
 }
 
+.elementor-widget-button .elementor-button {
+  font-family: "Noto Sans Mono", sans-serif;
+}
+
 #liste {
   padding: 5px;
   gap: 25px;
