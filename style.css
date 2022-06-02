@@ -23,7 +23,8 @@ body {
 * h1,
 h2,
 h3,
-h4, h5,
+h4,
+h5,
 h6 {
   font-family: "Specialelite Regular", sans-serif !important;
   color: #ffed00;
@@ -32,7 +33,8 @@ h6 {
 h1,
 h2,
 h3,
-h4, h5,
+h4,
+h5,
 h6,
 #post-12
   > div
@@ -43,8 +45,17 @@ h6,
   > div
   > div.elementor-element.elementor-element-7c787ed.elementor-widget.elementor-widget-heading
   > div
-  > h2 
-  #post-15 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-d615834.elementor-section-stretched.elementor-section-height-min-height.elementor-section-items-top.elementor-section-content-middle.elementor-section-boxed.elementor-section-height-default > div > div.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-8fb904e > div > div.elementor-element.elementor-element-57038c0.elementor-widget.elementor-widget-heading > div > h4{
+  > h2
+  #post-15
+  > div
+  > div
+  > section.elementor-section.elementor-top-section.elementor-element.elementor-element-d615834.elementor-section-stretched.elementor-section-height-min-height.elementor-section-items-top.elementor-section-content-middle.elementor-section-boxed.elementor-section-height-default
+  > div
+  > div.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-8fb904e
+  > div
+  > div.elementor-element.elementor-element-57038c0.elementor-widget.elementor-widget-heading
+  > div
+  > h4 {
   font-family: "Specialelite Regular", sans-serif !important;
   color: #ffed00;
 }
@@ -102,13 +113,44 @@ h2:before {
 
 p,
 a,
-.pris, #post-20 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-a058c7f.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched.elementor-hidden-tablet.elementor-hidden-mobile > div.elementor-container.elementor-column-gap-default.ui-sortable > div.elementor-element.elementor-element-edit-mode.elementor-element-254e406.elementor-element--toggle-edit-tools.elementor-column.elementor-top-column.ui-resizable > div.elementor-widget-wrap.elementor-element-populated.ui-sortable > div.elementor-element.elementor-element-edit-mode.elementor-element-0a0c48e.elementor-element--toggle-edit-tools.elementor-widget.elementor-widget-button.elementor-element-editable.elementor-align-left > div.elementor-widget-container > div > a > span > span.elementor-button-text.elementor-inline-editing {
+.pris,
+#post-20
+  > div
+  > div
+  > div.elementor-section-wrap.ui-sortable
+  > section.elementor-element.elementor-element-edit-mode.elementor-element-a058c7f.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched.elementor-hidden-tablet.elementor-hidden-mobile
+  > div.elementor-container.elementor-column-gap-default.ui-sortable
+  > div.elementor-element.elementor-element-edit-mode.elementor-element-254e406.elementor-element--toggle-edit-tools.elementor-column.elementor-top-column.ui-resizable
+  > div.elementor-widget-wrap.elementor-element-populated.ui-sortable
+  > div.elementor-element.elementor-element-edit-mode.elementor-element-0a0c48e.elementor-element--toggle-edit-tools.elementor-widget.elementor-widget-button.elementor-element-editable.elementor-align-left
+  > div.elementor-widget-container
+  > div
+  > a
+  > span
+  > span.elementor-button-text.elementor-inline-editing {
   font-family: "Noto Sans Mono", sans-serif;
   color: #ffff00;
 }
 
-article img {
-  max-height: 75vh;
+
+#post-12
+  > div
+  > div
+  > section.elementor-section.elementor-top-section.elementor-element.elementor-element-19c4c77.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
+  > div
+  > div.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-43e5161
+  > div
+  > div
+  > div
+  > div
+  > a
+  > span
+  > span {
+  font-family: "Noto Sans Mono", sans-serif;
+}
+
+.elementor-widget-button .elementor-button {
+  font-family: "Noto Sans Mono", sans-serif;
 }
 
 #liste {
@@ -120,6 +162,10 @@ article img {
   align-items: start;
   margin-left: 40px;
   margin-right: 40px;
+}
+
+article img {
+  max-height: 75vh;
 }
 
 #liste img {
@@ -156,9 +202,9 @@ article img {
     align-content: start;
   }
 
-#main {
-  grid-column: 1;
-}
+  #main {
+    grid-column: 1;
+  }
 
   #liste {
     padding: 5px;
@@ -173,10 +219,16 @@ article img {
 
   #primary {
     display: grid;
-    grid-template-columns: repeat(1, minmax(auto-fit, 1fr));
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
     justify-items: center;
-    
-    
+  }
+
+  #post-12
+    > div
+    > div
+    > section.elementor-section.elementor-top-section.elementor-element.elementor-element-a4a1550.elementor-section-full_width.elementor-section-stretched.elementor-section-height-full.elementor-section-height-default.elementor-section-items-middle {
+    width: 390px;
+    left: 0px;
   }
 }
 
@@ -202,5 +254,12 @@ article img {
     align-items: center;
     margin-left: 40px;
     margin-right: 40px;
+  }
+
+  #post-12
+    > div
+    > div
+    > section.elementor-section.elementor-top-section.elementor-element.elementor-element-a4a1550.elementor-section-full_width.elementor-section-stretched.elementor-section-height-full.elementor-section-height-default.elementor-section-items-middle {
+    left: 0;
   }
 }
