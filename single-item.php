@@ -21,14 +21,15 @@ get_header();
 
         <button class="tilbage button" >Tilbage</button>
 
-    <article>
-    <h3 class="overskrift"></h3>
-    <img class="img" src="" alt="">
-    </article>
+
+    
+
 
       <article>
-         <span class="beskrivelse"></span>
-         <span class="pris"></span>
+        <h3 class="overskrift"></h3>
+        <img class="img" src="" alt="">
+        <span class="beskrivelse"></span>
+        <span class="pris"></span>
       </article>
     	</main>
 		</div><!-- #primary -->
