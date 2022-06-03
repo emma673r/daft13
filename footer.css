@@ -2,6 +2,16 @@
   display: none;
 }
 
+#colophon {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+#colophon p {
+  color: ;
+}
+
 #post-12 > footer > span {
   display: none;
 }

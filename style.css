@@ -202,11 +202,16 @@ article img {
 
 #main > article:nth-child(2) img {
 grid-column: 1/2;
+grid-row: 1/4;
 border: solid 8px #e30613;
 }
 
 #main > article:nth-child(2) .overskrift {
   color: #e30613;
+  grid-column: 2;
+  grid-row: 1;
+  
+
 }
 
 #main > article:nth-child(2) .pris {
@@ -216,7 +221,7 @@ border: solid 8px #e30613;
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 390px) {
   #filtrering {
     display: flex;
     place-content: center;
@@ -270,7 +275,7 @@ border: solid 8px #e30613;
 
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 810px) {
   #filtrering {
     display: flex;
     place-content: center;
@@ -300,4 +305,10 @@ border: solid 8px #e30613;
     > section.elementor-section.elementor-top-section.elementor-element.elementor-element-a4a1550.elementor-section-full_width.elementor-section-stretched.elementor-section-height-full.elementor-section-height-default.elementor-section-items-middle {
     left: 0;
   }
+
+  #main > article:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+    justify-items: center;
+}
 }
