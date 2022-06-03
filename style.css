@@ -261,6 +261,13 @@ border: solid 8px #e30613;
    left: 0;
  }
  
+ #main > article:nth-child(2) {
+   display: grid;
+   margin: 15px;
+ }
+
+ #main > article:nth-child(2) 
+
 }
 
 @media only screen and (max-width: 1024px) {
