@@ -34,7 +34,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
+h5, 
 h6,
 #post-12
   > div
@@ -113,8 +113,7 @@ h2:before {
 
 p,
 a,
-.pris,
-#post-20
+.pris, .beskrivelse, #post-20
   > div
   > div
   > div.elementor-section-wrap.ui-sortable
@@ -198,9 +197,23 @@ article img {
 #main > article:nth-child(2) {
     display: grid;
     grid-template-columns: repeat(2, minmax(300px, 1fr));
-    margin: 20px;
-    justify-items: start;
+    justify-items: center;
 }
+
+#main > article:nth-child(2) img {
+grid-column: 1/2;
+}
+
+#main > article:nth-child(2) .overskrift {
+  color: #e30613;
+}
+
+#main > article:nth-child(2) .pris {
+  color: #e30613;
+}
+
+
+
 
 @media only screen and (max-width: 768px) {
   #filtrering {
