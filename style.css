@@ -202,6 +202,7 @@ article img {
 
 #main > article:nth-child(2) img {
 grid-column: 1/2;
+border: solid 8px #e30613;
 }
 
 #main > article:nth-child(2) .overskrift {
