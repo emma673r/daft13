@@ -219,7 +219,7 @@ border: solid 8px #e30613;
 
 
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 767px) {
   #filtrering {
     display: flex;
     place-content: center;
@@ -255,7 +255,8 @@ border: solid 8px #e30613;
   #post-12
     > div
     > div
-    > section.elementor-section.elementor-top-section.elementor-element.elementor-element-a4a1550.elementor-section-full_width.elementor-section-stretched.elementor-section-height-full.elementor-section-height-default.elementor-section-items-middle {
+    > section.elementor-section.elementor-top-section.elementor-element.elementor-element-a4a1550.elementor-section-full_width.elementor-section-stretched.elementor-section-height-full.elementor-section-height-default.elementor-section-items-middle, #post-12 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f2b3b80.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default, #post-12 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f2b3b80.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
+     {
     left: 0px;
   }
   #post-15 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-55baf35.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
@@ -272,7 +273,7 @@ border: solid 8px #e30613;
  }
 
 
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 1024px) {
   #filtrering {
     display: flex;
     place-content: center;
