@@ -2,10 +2,10 @@
   display: none;
 }
 
-#colophon {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-
+#colophon .widget_column {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
 #colophon p {
@@ -137,3 +137,11 @@
 #post-15 p {
   font-family: "Noto Sans Mono", sans-serif;
 }
+
+@media only screen and (max-width: 390px) {
+ 
+  #colophon .widget-column{
+  display: flex;
+  flex-direction: column;
+  }
+  }
