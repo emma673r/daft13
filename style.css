@@ -202,12 +202,15 @@ article img {
 
 #main > article:nth-child(2) img {
 grid-column: 1/2;
+grid-row: 1/4;
 border: solid 8px #e30613;
 }
 
 #main > article:nth-child(2) .overskrift {
   color: #e30613;
-}
+  grid-column: 2;
+  grid-row: 1;
+  }
 
 #main > article:nth-child(2) .pris {
   color: #e30613;
@@ -216,7 +219,7 @@ border: solid 8px #e30613;
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 390px) {
   #filtrering {
     display: flex;
     place-content: center;
@@ -253,17 +256,23 @@ border: solid 8px #e30613;
     > div
     > div
     > section.elementor-section.elementor-top-section.elementor-element.elementor-element-a4a1550.elementor-section-full_width.elementor-section-stretched.elementor-section-height-full.elementor-section-height-default.elementor-section-items-middle {
-    left: 0;
+    left: 0px;
   }
-  
+  #post-15 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-55baf35.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
   #post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-55baf35.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched.elementor-element-editable, #post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-b88dd34.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-10fe426.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched.elementor-element-editable, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-d307264.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-19c4c77.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-420d100.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched.elementor-element-editable
+  #post-15 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-b88dd34.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
+  #post-319 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-ef1e494.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
   {
-   left: 0;
+   left: 0px;
  }
  
-}
+ #main > article:nth-child(2) {
+   display: grid;
+   margin: 15px;
+ }
 
-@media only screen and (max-width: 1024px) {
+
+@media only screen and (max-width: 810px) {
   #filtrering {
     display: flex;
     place-content: center;
@@ -293,4 +302,11 @@ border: solid 8px #e30613;
     > section.elementor-section.elementor-top-section.elementor-element.elementor-element-a4a1550.elementor-section-full_width.elementor-section-stretched.elementor-section-height-full.elementor-section-height-default.elementor-section-items-middle {
     left: 0;
   }
+
+  #main > article:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+    justify-items: center;
+}
+}
 }
