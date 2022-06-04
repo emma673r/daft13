@@ -30,6 +30,7 @@ get_header();
         <img class="img" src="" alt="">
         <span class="beskrivelse"></span>
         <span class="pris"></span>
+        <span class="obs"></span>
       </article>
     	</main>
 		</div><!-- #primary -->
@@ -56,6 +57,7 @@ get_header();
 			document.querySelector(".img").src = item.image.guid;
 			document.querySelector(".img").alt = item.overskrift;
           document.querySelector(".pris").innerHTML = `Pris. ${item.pris}dkk`;
+          document.querySelector(".obs").innerHTML = `Obs. Købet forgår via instagram eller mail hendvendelser. Venligst skriv til mig <a href="https://www.instagram.com/daft13/">her</a>. `;
         }
 
         hentData();
