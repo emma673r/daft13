@@ -175,6 +175,7 @@ article img {
 #liste img {
   max-height: 75vh;
   cursor: pointer;
+  border: solid 8px #e30613
 }
 
 #filtrering {
@@ -267,8 +268,8 @@ border: solid 8px #e30613;
    left: 0px;
  }
  
- #main > article:nth-child(2) {
-   display: grid;
+ #main > article {
+   display: block;
    margin: 15px;
  }
 

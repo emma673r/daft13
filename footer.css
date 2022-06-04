@@ -2,14 +2,18 @@
   display: none;
 }
 
-#colophon .widget_column {
+#colophon {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
 }
 
+#colophon .site-info {
+  display: none;
+}
+
 #colophon p {
-  color: #1D1D1B;
+  color: #ffed00;
 }
 
 #post-12 > footer > span {
