@@ -220,7 +220,7 @@ a,
 #main > article:nth-child(2) img {
 grid-column: 1;
 grid-row: 1;
-border: solid 8px #e30613;
+border: solid 2px #e30613;
 }
 
 #main > article:nth-child(2) .overskrift {
@@ -328,7 +328,7 @@ article img {
 #main > article:nth-child(2) img {
 grid-column: 1/2;
 grid-row: 1/4;
-border: solid 8px #e30613;
+border: solid 2px #e30613;
 }
 
 #main > article:nth-child(2) .overskrift {
