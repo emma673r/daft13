@@ -126,7 +126,7 @@ a,
   > div
   > a
   > span
-  > span.elementor-button-text.elementor-inline-editing {
+  > span.elementor-button-text.elementor-inline-editing, .obs {
   font-family: "Noto Sans Mono", sans-serif;
   color: #ffff00;
 }
@@ -156,6 +156,101 @@ a,
 .elementor-widget-button .elementor-button {
   font-family: "Noto Sans Mono", sans-serif;
 }
+
+
+@media only screen and (max-width: 767px) {
+   #main > article {
+  grid: none;
+}
+  
+  #filtrering {
+    display: flex;
+    place-content: center;
+    margin: 40px;
+    gap: 10px;
+    margin-top: 60px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: start;
+  }
+
+  #main {
+    grid-column: 1;
+  }
+
+  #liste {
+    padding: 5px;
+    gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+    justify-items: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  #primary {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+    justify-items: center;
+  }
+
+  #post-12
+    > div
+    > div
+    > section.elementor-section.elementor-top-section.elementor-element.elementor-element-a4a1550.elementor-section-full_width.elementor-section-stretched.elementor-section-height-full.elementor-section-height-default.elementor-section-items-middle, #post-12 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f2b3b80.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default, #post-12 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f2b3b80.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default, #post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-55baf35.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched, #post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-b88dd34.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched
+     {
+    left: 0px;
+  }
+  #post-15 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-55baf35.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
+  #post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-55baf35.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched.elementor-element-editable, #post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-b88dd34.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-10fe426.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched.elementor-element-editable, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-d307264.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-19c4c77.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-420d100.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched.elementor-element-editable
+  #post-15 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-b88dd34.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
+  #post-319 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-ef1e494.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
+  #post-12 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f2b3b80.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default, #post-12 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f2b3b80.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default, #post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-55baf35.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched.elementor-element-editable, #post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-b88dd34.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched, section.elementor-section:nth-child(3), section.elementor-section:nth-child(5) {
+   left: 0px;
+ }
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  #filtrering {
+    display: flex;
+    place-content: center;
+    margin: 40px;
+    margin-top: 30px;
+    gap: 10px;
+    margin-top: 60px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: start;
+  }
+
+  #liste {
+    padding: 5px;
+    gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-items: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  #post-12
+    > div
+    > div
+    > section.elementor-section.elementor-top-section.elementor-element.elementor-element-a4a1550.elementor-section-full_width.elementor-section-stretched.elementor-section-height-full.elementor-section-height-default.elementor-section-items-middle {
+    left: 0;
+  }
+
+  #main > article {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+    justify-items: center;
+}
+}
+
 
 #liste {
   padding: 5px;
@@ -217,98 +312,9 @@ border: solid 8px #e30613;
   color: #e30613;
 }
 
-
-
-
-@media only screen and (max-width: 767px) {
-  #filtrering {
-    display: flex;
-    place-content: center;
-    margin: 40px;
-    gap: 10px;
-    margin-top: 60px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: start;
-  }
-
-  #main {
-    grid-column: 1;
-  }
-
-  #liste {
-    padding: 5px;
-    gap: 25px;
-    display: grid;
-    grid-template-columns: repeat(1, minmax(300px, 1fr));
-    justify-items: center;
-    align-items: center;
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-
-  #primary {
-    display: grid;
-    grid-template-columns: repeat(1, minmax(300px, 1fr));
-    justify-items: center;
-  }
-
-  #post-12
-    > div
-    > div
-    > section.elementor-section.elementor-top-section.elementor-element.elementor-element-a4a1550.elementor-section-full_width.elementor-section-stretched.elementor-section-height-full.elementor-section-height-default.elementor-section-items-middle, #post-12 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f2b3b80.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default, #post-12 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f2b3b80.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
-     {
-    left: 0px;
-  }
-  #post-15 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-55baf35.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
-  #post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-55baf35.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched.elementor-element-editable, #post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-b88dd34.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-10fe426.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched.elementor-element-editable, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-d307264.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-19c4c77.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-420d100.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched.elementor-element-editable
-  #post-15 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-b88dd34.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
-  #post-319 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-ef1e494.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
-  {
-   left: 0px;
- }
- 
- #main > article {
-   display: block;
-   margin: 15px;
- }
-
-
-@media only screen and (max-width: 1024px) {
-  #filtrering {
-    display: flex;
-    place-content: center;
-    margin: 40px;
-    margin-top: 30px;
-    gap: 10px;
-    margin-top: 60px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: start;
-  }
-
-  #liste {
-    padding: 5px;
-    gap: 25px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    justify-items: center;
-    align-items: center;
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-
-  #post-12
-    > div
-    > div
-    > section.elementor-section.elementor-top-section.elementor-element.elementor-element-a4a1550.elementor-section-full_width.elementor-section-stretched.elementor-section-height-full.elementor-section-height-default.elementor-section-items-middle {
-    left: 0;
-  }
-
-  #main > article:nth-child(2) {
-    display: grid;
-    grid-template-columns: repeat(1, minmax(300px, 1fr));
-    justify-items: center;
+#main > article:nth-child(2) .obs {
+  color: #ffed00;
 }
-}
-}
+
+
+
