@@ -227,6 +227,7 @@ border: solid 2px #e30613;
 color: #e30613;
 grid-column: 1;
 grid-row: 1;
+margin: 0rem 0;
 }
 
 #main > article:nth-child(2) .pris {
