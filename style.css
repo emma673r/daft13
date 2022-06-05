@@ -239,6 +239,14 @@ grid-column: 1;
 color: #ffed00;
 }
 
+#block-15 > div > div > ul {
+  justify-content: center;
+}
+
+#colophon > aside > div {
+  text-align: center;
+}
+
 }
 
 
