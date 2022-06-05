@@ -2,10 +2,22 @@
   display: none;
 }
 
-#colophon {
+#colophon > aside {
+  background-color: yellow;
   display: flex;
-  flex-wrap: nowrap;
   justify-content: center;
+  flex-direction: row;
+}
+
+#colophon > .widget-column {
+  display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+#block-14 > div > div > h2, #block-15 > div > div > h2 {
   color: #1D1D1B;
 }
 
