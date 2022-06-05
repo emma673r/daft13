@@ -299,7 +299,7 @@ article img {
 #liste img {
   max-height: 75vh;
   cursor: pointer;
-  border: solid 8px #e30613
+  border: solid 2px #e30613
 }
 
 #filtrering {
