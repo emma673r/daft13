@@ -314,6 +314,7 @@ border: solid 8px #e30613;
 }
 
 #main > article:nth-child(2) .obs {
+  grid-column: 2;
   color: #ffed00;
 }
 
