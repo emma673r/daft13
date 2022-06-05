@@ -210,6 +210,34 @@ a,
   #post-12 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f2b3b80.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default, #post-12 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f2b3b80.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default, #post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-55baf35.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched.elementor-element-editable, #post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-b88dd34.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched, section.elementor-section:nth-child(3), section.elementor-section:nth-child(5) {
    left: 0px;
  }
+ 
+ #main > article:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(300px, 1fr));
+  justify-items: center;
+}
+
+#main > article:nth-child(2) img {
+grid-column: 1;
+grid-row: 1;
+border: solid 8px #e30613;
+}
+
+#main > article:nth-child(2) .overskrift {
+color: #e30613;
+grid-column: 1;
+grid-row: 1;
+}
+
+#main > article:nth-child(2) .pris {
+color: #e30613;
+}
+
+#main > article:nth-child(2) .obs {
+grid-column: 1;
+color: #ffed00;
+}
+
 }
 
 
