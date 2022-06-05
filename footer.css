@@ -21,6 +21,10 @@
   color: #1D1D1B;
 }
 
+#block-14 > div > div > p:nth-child(2), #block-14 > div > div > p:nth-child(3) {
+  color: #1D1D1B;
+}
+
 #colophon .site-info {
   display: none;
 }
