@@ -330,7 +330,6 @@ article img {
 
 .tilbage {
   display: flex;
-  place-content: left;
   margin: 40px;
   gap: 60px;
   margin-top: 60px;
