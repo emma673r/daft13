@@ -31,6 +31,10 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
+			<h1>Art Shop</h1>
+			<p class="besk">I min Art Shop kan du se og købe gotiske malerier, plakater, og skulpturer kreeret af mig. <br>
+				Købet foregår over besked på Instagram, hvor vi også aftaler nærmere hvordan produktet kommer hjem til dig.</p>
+
 			<nav id="filtrering">
 				
 					<button data-item="alle">Alle</button>
@@ -40,11 +44,40 @@ get_header();
 			
 			</nav>
       <section id="liste"></section>
+	  			<div class="video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/ISxEbDU2L2g" title="Daft13 splash video" description="splash video Daft13 med kunst og tatoveringer. Showcase af hans arbejde." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 		</main><!-- #main -->
 			</div><!-- #primary -->
 			
+<style>
+	h1 {
+		display:flex;
+		place-content: center;
+	}
 
+	.besk {
+		display:flex;
+		place-content: center;
+		width: 47ch;
+	}
+
+	.video {
+		display:flex;
+		place-content:center;
+		padding-top:40px;
+	}
+	iframe {
+		margin:auto auto;
+		width:50vw;
+		aspect-ratio:560/315;
+		height:auto;
+		border-style:solid;
+		border-width:2px;
+		border-color: #e30613;
+	}
+</style>
 
 <script>
 
