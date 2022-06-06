@@ -20,6 +20,7 @@ get_header();
 
 			
       <template>
+
         <article id="items">
           <h3 class="overskrift"></h3>
           <img src="" alt=""/>
@@ -35,14 +36,11 @@ get_header();
 
 			<p class="besk">I min Art Shop kan du se og købe gotiske malerier, plakater, og skulpturer kreeret af mig. <br>
 				Købet foregår over besked på Instagram, hvor vi også aftaler nærmere hvordan produktet kommer hjem til dig.</p>
-
+		  <h2 id="kategoriH2"></h2>
 			<nav id="filtrering">
 				
-					<button data-item="alle">Alle</button>
-						
-		
+					<button class="btns" data-item="alle">Alle</button>
 
-			
 			</nav>
       <section id="liste"></section>
 	  			<div class="video">
@@ -58,6 +56,13 @@ get_header();
 		place-content: center;
 	}
 
+	#kategoriH2 {
+				display:flex;
+		place-content: center;
+		font-size:1.2em;
+		color: #e30613;
+	}
+
 
 	.besk {
 		display:flex;
@@ -69,6 +74,7 @@ get_header();
 		place-content:center;
 		padding-top:40px;
 	}
+
 	iframe {
 		margin:auto auto;
 		width:50vw;
@@ -78,6 +84,43 @@ get_header();
 		border-width:2px;
 		border-color: #e30613;
 	}
+
+
+	.btns, button, .elementor-widget-button,
+.elementor-button,
+.button  {
+		font-family: "Specialelite Regular";
+		background: #ffed00;
+		background-color: #ffed00;
+		color: #1d1d1b;
+		padding: 10px;
+		border-radius: 0;
+	}
+
+	.btns:hover {
+		font-family: "Specialelite Regular";
+		background: #1d1d1b;
+		background-color: #1d1d1b;
+		color: #ffed00;
+		padding: 10px;
+		box-shadow: 4px 4px 0px 4px;
+		border-radius: 0;
+	}
+
+	.btns:active, button:active, .elementor-widget-button:active,
+.elementor-button:active,
+.button:active {
+		font-family: "Specialelite Regular";
+		background: #ffed00;
+		background-color: #ffed00;
+		color: #ffed00;
+		padding: 10px;
+		box-shadow: 0px 5px 0px 4px;
+		border-radius: 0;
+	} 
+
+
+
 </style>
 
 <script>
@@ -90,6 +133,8 @@ get_header();
 
 		let items = [];
 		let categories = [];
+
+		const h2 = document.querySelector("#kategoriH2");
 
 
 
@@ -126,11 +171,14 @@ function opretKnapper() {
 function addEventListenersToButtons () {
 	document.querySelectorAll("#filtrering button").forEach(elm => {
 		elm.addEventListener("click", filtrering)
+		elm.classList.add("btns");
 	})
 }
 
 function filtrering() {
 	console.log("this is this.dataset.item = " + this.dataset.item);
+
+ 	// butt.classList = "btns";
 
 	if (this.dataset.item != "alle") {
 
@@ -141,8 +189,22 @@ function filtrering() {
 		filterItem = this.dataset.item;
 	}
 
+
+	// this.onclick = selected();
+
+	// this.classList.add("selected");
+
+
+ h2.textContent = this.textContent;
+
 	visItems();
 }
+
+// function selected() {
+// 		this.classList.add("selected");
+
+// 	visItems();
+// }
 
 function visItems() {
 
@@ -150,7 +212,6 @@ function visItems() {
 	let container = document.querySelector("#liste");
 
 	container.innerHTML = "";
-	
 
 	items.forEach((item) => {
 		

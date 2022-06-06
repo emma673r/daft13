@@ -34,7 +34,7 @@ h1,
 h2,
 h3,
 h4,
-h5, 
+h5,
 h6,
 #post-12
   > div
@@ -113,7 +113,9 @@ h2:before {
 
 p,
 a,
-.pris, .beskrivelse, #post-20
+.pris,
+.beskrivelse,
+#post-20
   > div
   > div
   > div.elementor-section-wrap.ui-sortable
@@ -126,12 +128,12 @@ a,
   > div
   > a
   > span
-  > span.elementor-button-text.elementor-inline-editing, .obs {
+  > span.elementor-button-text.elementor-inline-editing,
+.obs {
   font-family: "Noto Sans Mono", sans-serif;
   color: #ffff00;
   font-size: 18px;
 }
-
 
 #post-12
   > div
@@ -149,21 +151,87 @@ a,
   font-family: "Noto Sans Mono", sans-serif;
 }
 
-#post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-55baf35.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched.elementor-element-editable, #post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-b88dd34.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-10fe426.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched.elementor-element-editable, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-d307264.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-19c4c77.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-420d100.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched.elementor-element-editable
- {
+#post-15
+  > div
+  > div
+  > div.elementor-section-wrap.ui-sortable
+  > section.elementor-element.elementor-element-edit-mode.elementor-element-55baf35.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched.elementor-element-editable,
+#post-15
+  > div
+  > div
+  > div.elementor-section-wrap.ui-sortable
+  > section.elementor-element.elementor-element-edit-mode.elementor-element-b88dd34.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched,
+#post-12
+  > div
+  > div
+  > div.elementor-section-wrap.ui-sortable
+  > section.elementor-element.elementor-element-edit-mode.elementor-element-10fe426.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched.elementor-element-editable,
+#post-12
+  > div
+  > div
+  > div.elementor-section-wrap.ui-sortable
+  > section.elementor-element.elementor-element-edit-mode.elementor-element-d307264.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched,
+#post-12
+  > div
+  > div
+  > div.elementor-section-wrap.ui-sortable
+  > section.elementor-element.elementor-element-edit-mode.elementor-element-19c4c77.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched,
+#post-12
+  > div
+  > div
+  > div.elementor-section-wrap.ui-sortable
+  > section.elementor-element.elementor-element-edit-mode.elementor-element-420d100.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched.elementor-element-editable {
   left: 0;
 }
 
-.elementor-widget-button .elementor-button {
-  font-family: "Noto Sans Mono", sans-serif;
+.elementor-widget-button,
+.elementor-button,
+button,
+.button {
+  font-family: "Specialelite Regular";
+  background: #ffed00;
+  background-color: #ffed00;
+  color: #1d1d1b;
+  padding: 10px;
+  border-radius: 0;
 }
 
+.elementor-widget-button:hover,
+.elementor-button:hover,
+button:hover,
+.button:hover,
+.button:hover,
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  font-family: "Specialelite Regular";
+  background: #1d1d1b;
+  background-color: #1d1d1b;
+  color: #ffed00;
+  padding: 10px;
+  box-shadow: 0px 5px 0px 4px;
+  border-radius: 0;
+}
+
+/* .elementor-widget-button:active,
+.elementor-button:active,
+button:active,
+.button:active {
+  font-family: "Specialelite Regular";
+  background: #e30613;
+  background-color: #e30613;
+  color: #1d1d1b;
+  padding: 10px;
+  box-shadow: 0px 5px 0px 4px;
+  border-radius: 0;
+} */
 
 @media only screen and (max-width: 767px) {
-   #main > article {
-  grid: none;
-}
-  
+  #main > article {
+    grid: none;
+  }
+
   #filtrering {
     display: flex;
     place-content: center;
@@ -199,68 +267,138 @@ a,
   #post-12
     > div
     > div
-    > section.elementor-section.elementor-top-section.elementor-element.elementor-element-a4a1550.elementor-section-full_width.elementor-section-stretched.elementor-section-height-full.elementor-section-height-default.elementor-section-items-middle, #post-12 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f2b3b80.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default, #post-12 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f2b3b80.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default, #post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-55baf35.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched, #post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-b88dd34.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched
-     {
+    > section.elementor-section.elementor-top-section.elementor-element.elementor-element-a4a1550.elementor-section-full_width.elementor-section-stretched.elementor-section-height-full.elementor-section-height-default.elementor-section-items-middle,
+  #post-12
+    > div
+    > div
+    > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f2b3b80.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default,
+  #post-12
+    > div
+    > div
+    > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f2b3b80.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default,
+  #post-15
+    > div
+    > div
+    > div.elementor-section-wrap.ui-sortable
+    > section.elementor-element.elementor-element-edit-mode.elementor-element-55baf35.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched,
+  #post-15
+    > div
+    > div
+    > div.elementor-section-wrap.ui-sortable
+    > section.elementor-element.elementor-element-edit-mode.elementor-element-b88dd34.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched {
     left: 0px;
   }
-  #post-15 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-55baf35.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
-  #post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-55baf35.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched.elementor-element-editable, #post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-b88dd34.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-10fe426.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched.elementor-element-editable, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-d307264.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-19c4c77.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched, #post-12 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-420d100.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched.elementor-element-editable
-  #post-15 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-b88dd34.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
-  #post-319 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-ef1e494.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
-  #post-12 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f2b3b80.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default, #post-12 > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f2b3b80.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default, #post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-55baf35.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched.elementor-element-editable, #post-15 > div > div > div.elementor-section-wrap.ui-sortable > section.elementor-element.elementor-element-edit-mode.elementor-element-b88dd34.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched, section.elementor-section:nth-child(3), section.elementor-section:nth-child(5) {
-   left: 0px;
- }
- 
- 
- #main > article:nth-child(2) {
-  display: grid;
-  grid-template-columns: repeat(1, minmax(300px, 1fr)) !important;
-  justify-items: center;
+  #post-15
+    > div
+    > div
+    > section.elementor-section.elementor-top-section.elementor-element.elementor-element-55baf35.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
+    #post-15
+    > div
+    > div
+    > div.elementor-section-wrap.ui-sortable
+    > section.elementor-element.elementor-element-edit-mode.elementor-element-55baf35.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched.elementor-element-editable,
+  #post-15
+    > div
+    > div
+    > div.elementor-section-wrap.ui-sortable
+    > section.elementor-element.elementor-element-edit-mode.elementor-element-b88dd34.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched,
+  #post-12
+    > div
+    > div
+    > div.elementor-section-wrap.ui-sortable
+    > section.elementor-element.elementor-element-edit-mode.elementor-element-10fe426.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched.elementor-element-editable,
+  #post-12
+    > div
+    > div
+    > div.elementor-section-wrap.ui-sortable
+    > section.elementor-element.elementor-element-edit-mode.elementor-element-d307264.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched,
+  #post-12
+    > div
+    > div
+    > div.elementor-section-wrap.ui-sortable
+    > section.elementor-element.elementor-element-edit-mode.elementor-element-19c4c77.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched,
+  #post-12
+    > div
+    > div
+    > div.elementor-section-wrap.ui-sortable
+    > section.elementor-element.elementor-element-edit-mode.elementor-element-420d100.elementor-section.elementor-top-section.elementor-section-full_width.elementor-section-height-default.elementor-section-stretched.elementor-element-editable
+    #post-15
+    > div
+    > div
+    > section.elementor-section.elementor-top-section.elementor-element.elementor-element-b88dd34.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
+    #post-319
+    > div
+    > div
+    > section.elementor-section.elementor-top-section.elementor-element.elementor-element-ef1e494.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
+    #post-12
+    > div
+    > div
+    > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f2b3b80.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default,
+  #post-12
+    > div
+    > div
+    > section.elementor-section.elementor-top-section.elementor-element.elementor-element-f2b3b80.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default,
+  #post-15
+    > div
+    > div
+    > div.elementor-section-wrap.ui-sortable
+    > section.elementor-element.elementor-element-edit-mode.elementor-element-55baf35.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched.elementor-element-editable,
+  #post-15
+    > div
+    > div
+    > div.elementor-section-wrap.ui-sortable
+    > section.elementor-element.elementor-element-edit-mode.elementor-element-b88dd34.elementor-section.elementor-top-section.elementor-section-boxed.elementor-section-height-default.elementor-section-stretched,
+  section.elementor-section:nth-child(3),
+  section.elementor-section:nth-child(5) {
+    left: 0px;
+  }
+
+  #main > article:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(300px, 1fr)) !important;
+    justify-items: center;
+  }
+
+  #main > article:nth-child(2) img {
+    grid-column: 1;
+    grid-row: 1;
+    border: solid 2px #e30613;
+  }
+
+  #main > article:nth-child(2) .overskrift {
+    color: #e30613;
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0rem 0;
+  }
+
+  #main > article:nth-child(2) .pris {
+    color: #e30613;
+  }
+
+  #main > article:nth-child(2) .obs {
+    grid-column: 1;
+    color: #ffed00;
+  }
+
+  #block-15 > div > div > ul {
+    justify-content: center;
+  }
+
+  #colophon > aside > div {
+    text-align: center;
+  }
+
+  iframe {
+    margin: auto auto;
+    width: 90vw;
+    aspect-ratio: 560/315;
+    height: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e30613;
+  }
 }
-
-#main > article:nth-child(2) img {
-grid-column: 1;
-grid-row: 1;
-border: solid 2px #e30613;
-}
-
-#main > article:nth-child(2) .overskrift {
-color: #e30613;
-grid-column: 1;
-grid-row: 1;
-margin: 0rem 0;
-}
-
-#main > article:nth-child(2) .pris {
-color: #e30613;
-}
-
-#main > article:nth-child(2) .obs {
-grid-column: 1;
-color: #ffed00;
-}
-
-#block-15 > div > div > ul {
-  justify-content: center;
-}
-
-#colophon > aside > div {
-  text-align: center;
-}
-
-iframe {
-  margin: auto auto;
-  width: 90vw;
-  aspect-ratio: 560/315;
-  height: auto;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #e30613;
-}
-
-}
-
-
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   #filtrering {
@@ -297,9 +435,8 @@ iframe {
     display: grid;
     grid-template-columns: repeat(1, minmax(300px, 1fr));
     justify-items: center;
+  }
 }
-}
-
 
 #liste {
   padding: 5px;
@@ -340,22 +477,22 @@ article img {
 }
 
 #main > article:nth-child(2) {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(300px, 1fr));
-    justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  justify-content: center;
 }
 
 #main > article:nth-child(2) img {
-grid-column: 1/2;
-grid-row: 1/5;
-border: solid 2px #e30613;
+  grid-column: 1/2;
+  grid-row: 1/5;
+  border: solid 2px #e30613;
 }
 
 #main > article:nth-child(2) .overskrift {
   color: #e30613;
   grid-column: 2;
   grid-row: 1;
-  }
+}
 
 #main > article:nth-child(2) .pris {
   color: #e30613;
@@ -365,6 +502,3 @@ border: solid 2px #e30613;
   grid-column: 2;
   color: #ffed00;
 }
-
-
-
