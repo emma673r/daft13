@@ -90,7 +90,7 @@ get_header();
 .elementor-button,
 .button  {
 		font-family: "Specialelite Regular";
-		/* background: #ffed00; */
+		background: #ffed00;
 		background-color: #ffed00;
 		color: #1d1d1b;
 		padding: 10px;
@@ -99,7 +99,7 @@ get_header();
 
 	.btns:hover {
 		font-family: "Specialelite Regular";
-		/* background: #1d1d1b; */
+		background: #1d1d1b;
 		background-color: #1d1d1b;
 		color: #ffed00;
 		padding: 10px;
@@ -111,7 +111,7 @@ get_header();
 .elementor-button:active,
 .button:active {
 		font-family: "Specialelite Regular";
-		/* background: #ffed00; */
+		background: #ffed00;
 		background-color: #ffed00;
 		color: #ffed00;
 		padding: 10px;
