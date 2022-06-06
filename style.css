@@ -232,6 +232,7 @@ button:active,
     grid: none;
   }
 
+  
   #filtrering {
     display: flex;
     place-content: center;
@@ -477,9 +478,11 @@ article img {
 }
 
 #main > article:nth-child(2) {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(300px, 1fr));
-  justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    justify-content: center;
+    justify-items: center;
+    margin-right: 20px;
 }
 
 #main > article:nth-child(2) img {
@@ -492,7 +495,8 @@ article img {
   color: #e30613;
   grid-column: 2;
   grid-row: 1;
-}
+  margin-top: -5px;
+  }
 
 #main > article:nth-child(2) .pris {
   color: #e30613;
