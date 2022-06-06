@@ -486,6 +486,7 @@ article img {
   justify-content: center;
   justify-items: center;
   margin-right: 20px;
+  margin-bottom: 100px;
 }
 
 #main > article:nth-child(2) img {
