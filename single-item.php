@@ -31,10 +31,53 @@ get_header();
         <span class="beskrivelse"></span>
         <span class="pris"></span>
         <span class="obs"></span>
+        <button class="btns koeb"><a href="https://www.instagram.com/daft13/">Køb</a></button>
       </article>
     	</main>
 		</div><!-- #primary -->
 
+
+<style>
+
+  .koeb {
+    margin-top: 40px;
+    display:flex;
+    place-content:center;
+  }
+
+  	.btns, button, .elementor-widget-button,
+.elementor-button,
+.button  {
+		font-family: "Specialelite Regular";
+		background: #ffed00;
+		background-color: #ffed00;
+		color: #1d1d1b;
+		padding: 10px;
+		border-radius: 0;
+	}
+
+	.btns:hover {
+		font-family: "Specialelite Regular";
+		background: #1d1d1b;
+		background-color: #1d1d1b;
+		color: #ffed00;
+		padding: 10px;
+		box-shadow: 4px 4px 0px 4px;
+		border-radius: 0;
+	}
+
+	.btns:active, button:active, .elementor-widget-button:active,
+.elementor-button:active,
+.button:active {
+		font-family: "Specialelite Regular";
+		background: #ffed00;
+		background-color: #ffed00;
+		color: #ffed00;
+		padding: 10px;
+		box-shadow: 0px 5px 0px 4px;
+		border-radius: 0;
+	} 
+</style>
     <script>
         const urlParams = new URLSearchParams(window.location.search);
         const id = <?php echo get_the_ID() ?>;
@@ -58,6 +101,7 @@ get_header();
 			document.querySelector(".img").alt = item.overskrift;
           document.querySelector(".pris").innerHTML = `Pris. ${item.pris}dkk`;
           document.querySelector(".obs").innerHTML = `Obs. Købet forgår via instagram eller mail hendvendelser. Venligst skriv til mig <a href="https://www.instagram.com/daft13/">her</a>. `;
+
         }
 
         hentData();
