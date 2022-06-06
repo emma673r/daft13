@@ -212,7 +212,11 @@ input[type="submit"]:hover {
   border-radius: 0;
 }
 
-.elementor-widget-button:active,
+
+.elementor-widget-button, button, .button, button span, button p, .elementor-button-text {
+    font-family: "Specialelite Regular";
+}
+
 .elementor-button:active,
 button:active,
 .button:active {
