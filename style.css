@@ -214,18 +214,18 @@ input[type="submit"]:hover {
   border-radius: 0;
 }
 
-/* .elementor-widget-button:active,
+.elementor-widget-button:active,
 .elementor-button:active,
 button:active,
 .button:active {
   font-family: "Specialelite Regular";
-  background: #e30613;
-  background-color: #e30613;
-  color: #1d1d1b;
+  background: #1d1d1b;
+  background-color: #1d1d1b;
+  color: ffff00;
   padding: 10px;
   box-shadow: 0px 5px 0px 4px;
   border-radius: 0;
-} */
+}
 
 @media only screen and (max-width: 767px) {
   #main > article {

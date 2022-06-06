@@ -72,11 +72,12 @@ get_header();
 		font-family: "Specialelite Regular";
 		background: #ffed00;
 		background-color: #ffed00;
-		color: #ffed00;
+		color: #ffff00;
 		padding: 10px;
 		box-shadow: 0px 5px 0px 4px;
 		border-radius: 0;
 	} 
+
 </style>
     <script>
         const urlParams = new URLSearchParams(window.location.search);
