@@ -190,7 +190,7 @@ button,
 .button {
   font-family: "Specialelite Regular";
   /* background: #ffed00; */
-  background-color: #ffed00;
+  /* background-color: #ffed00; */
   color: #1d1d1b;
   /* padding: 10px; */
   border-radius: 0;
@@ -207,7 +207,7 @@ input[type="reset"]:hover,
 input[type="submit"]:hover {
   font-family: "Specialelite Regular";
   /* background: #1d1d1b; */
-  background-color: #1d1d1b;
+  /* background-color: #1d1d1b; */
   color: #ffed00;
   /* padding: 10px; */
   box-shadow: 0px 5px 0px 4px;
@@ -220,7 +220,7 @@ button:active,
 .button:active {
   font-family: "Specialelite Regular";
   /* background: #1d1d1b; */
-  background-color: #1d1d1b;
+  /* background-color: #1d1d1b; */
   color: #ffff00;
   padding: 10px;
   box-shadow: 0px 5px 0px 4px;
