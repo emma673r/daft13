@@ -91,7 +91,7 @@ get_header();
 .button  {
 		font-family: "Specialelite Regular";
 		background: #ffed00;
-		background-color: #ffed00;
+		/* background-color: #ffed00; */
 		color: #1d1d1b;
 		padding: 10px;
 		border-radius: 0;
@@ -100,7 +100,7 @@ get_header();
 	.btns:hover {
 		font-family: "Specialelite Regular";
 		background: #1d1d1b;
-		background-color: #1d1d1b;
+		/* background-color: #1d1d1b; */
 		color: #ffed00;
 		padding: 10px;
 		box-shadow: 4px 4px 0px 4px;
@@ -112,7 +112,7 @@ get_header();
 .button:active {
 		font-family: "Specialelite Regular";
 		background: #ffed00;
-		background-color: #ffed00;
+		/* background-color: #ffed00; */
 		color: #ffed00;
 		padding: 10px;
 		box-shadow: 0px 5px 0px 4px;
