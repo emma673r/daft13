@@ -32,6 +32,7 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 			<h1>Art Shop</h1>
+
 			<p class="besk">I min Art Shop kan du se og købe gotiske malerier, plakater, og skulpturer kreeret af mig. <br>
 				Købet foregår over besked på Instagram, hvor vi også aftaler nærmere hvordan produktet kommer hjem til dig.</p>
 
@@ -57,10 +58,10 @@ get_header();
 		place-content: center;
 	}
 
+
 	.besk {
 		display:flex;
 		place-content: center;
-		width: 50ch;
 	}
 
 	.video {
