@@ -45,38 +45,45 @@ get_header();
     place-content:center;
   }
 
-  	.btns, button, .elementor-widget-button,
+.elementor-widget-button,
 .elementor-button,
-.button  {
-		font-family: "Specialelite Regular";
-		background: #ffed00;
-		background-color: #ffed00;
-		color: #1d1d1b;
-		padding: 10px;
-		border-radius: 0;
-	}
+button,
+.button {
+  font-family: "Specialelite Regular";
+  /* background: #ffed00; */
+  /* background-color: #ffed00; */
+  color: #1d1d1b;
+  /* padding: 10px; */
+  border-radius: 0;
+}
 
-	.btns:hover {
-		font-family: "Specialelite Regular";
-		background: #1d1d1b;
-		background-color: #1d1d1b;
-		color: #ffed00;
-		padding: 10px;
-		box-shadow: 4px 4px 0px 4px;
-		border-radius: 0;
-	}
+.elementor-button:hover,
+button:hover,
+.button:hover,
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  font-family: "Specialelite Regular";
+  /* background: #1d1d1b; */
+  /* background-color: #1d1d1b; */
+  color: #ffed00;
+  /* padding: 10px; */
+  box-shadow: 0px 5px 0px 4px;
+  border-radius: 0;
+}
 
-	.btns:active, button:active, .elementor-widget-button:active,
 .elementor-button:active,
+button:active,
 .button:active {
-		font-family: "Specialelite Regular";
-		background: #ffed00;
-		background-color: #ffed00;
-		color: #ffff00;
-		padding: 10px;
-		box-shadow: 0px 5px 0px 4px;
-		border-radius: 0;
-	} 
+  font-family: "Specialelite Regular";
+  /* background: #1d1d1b; */
+  /* background-color: #1d1d1b; */
+  color: #ffff00;
+  padding: 10px;
+  box-shadow: 0px 5px 0px 4px;
+  border-radius: 0;
+}
 
 </style>
     <script>

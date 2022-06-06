@@ -185,6 +185,28 @@ a,
 }
 
 .elementor-widget-button,
+button,
+.button,
+button span,
+button p,
+.elementor-button-text,
+#post-12
+  > div
+  > div
+  > section.elementor-section.elementor-top-section.elementor-element.elementor-element-19c4c77.elementor-section-stretched.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default
+  > div
+  > div.elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-43e5161
+  > div
+  > div
+  > div
+  > div
+  > a
+  > span
+  > span {
+  font-family: "Specialelite Regular";
+}
+
+.elementor-widget-button,
 .elementor-button,
 button,
 .button {
@@ -210,11 +232,6 @@ input[type="submit"]:hover {
   /* padding: 10px; */
   box-shadow: 0px 5px 0px 4px;
   border-radius: 0;
-}
-
-
-.elementor-widget-button, button, .button, button span, button p, .elementor-button-text {
-    font-family: "Specialelite Regular";
 }
 
 .elementor-button:active,
@@ -386,7 +403,6 @@ button:active,
   #main > article > button {
     grid-column: 1;
   }
-  
 
   #block-15 > div > div > ul {
     justify-content: center;
