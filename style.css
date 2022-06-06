@@ -196,10 +196,8 @@ button,
   border-radius: 0;
 }
 
-.elementor-widget-button:hover,
 .elementor-button:hover,
 button:hover,
-.button:hover,
 .button:hover,
 button:hover,
 input[type="button"]:hover,
