@@ -340,6 +340,7 @@ article img {
     display: grid;
     grid-template-columns: repeat(2, minmax(300px, 1fr));
     justify-content: center;
+    justify-items: center;
 }
 
 #main > article:nth-child(2) img {
