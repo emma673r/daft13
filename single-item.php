@@ -31,7 +31,7 @@ get_header();
         <span class="beskrivelse"></span>
         <span class="pris"></span>
         <span class="obs"></span>
-        <button class="btns koeb"><a href="https://www.instagram.com/daft13/">Køb</a></button>
+        <button class="btns koeb"><a href="https://www.instagram.com/daft13/">Køb mig</a></button>
       </article>
     	</main>
 		</div><!-- #primary -->
