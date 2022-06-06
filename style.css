@@ -381,6 +381,11 @@ button:active,
     color: #ffed00;
   }
 
+  #main > article > button {
+    grid-column: 1;
+  }
+  
+
   #block-15 > div > div > ul {
     justify-content: center;
   }
@@ -503,4 +508,8 @@ article img {
 #main > article:nth-child(2) .obs {
   grid-column: 2;
   color: #ffed00;
+}
+
+#main > article > button {
+  grid-column: 2;
 }
