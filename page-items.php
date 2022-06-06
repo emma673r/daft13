@@ -107,7 +107,7 @@ get_header();
 		border-radius: 0;
 	}
 
-	.btns:active, button:active, .elementor-widget-button:active,
+	/* .btns:active, button:active, .elementor-widget-button:active,
 .elementor-button:active,
 .button:active {
 		font-family: "Specialelite Regular";
@@ -117,7 +117,7 @@ get_header();
 		padding: 10px;
 		box-shadow: 0px 5px 0px 4px;
 		border-radius: 0;
-	} 
+	}  */
 
 
 
