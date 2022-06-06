@@ -60,7 +60,7 @@ get_header();
 	.besk {
 		display:flex;
 		place-content: center;
-		width: 47ch;
+		width: 50ch;
 	}
 
 	.video {
